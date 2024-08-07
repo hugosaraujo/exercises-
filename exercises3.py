@@ -49,11 +49,10 @@ print(soma)
 
 try:
     soma = 0
-    lista_vazia = []
     for numero in numeros: 
         soma += numero
 
-    media = soma / len(lista_vazia)
+    media = soma / len(numeros)
 
     print(media)
 except ZeroDivisionError:
