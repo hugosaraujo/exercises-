@@ -6,18 +6,18 @@ pessoas = [{'nome': 'Lucas', 'idade': 27, 'cidade': 'São Paulo'},
 # 2- Utilizando o dicionario criado no item anterior: 
 ## -> Modifique o valor de um dos itens no dicionário(por exemplo, atualize a idade da pessoa);
 pessoas[0]['idade'] = 28
-#print(pessoa[0])
+print(pessoas[0])
 ## -> Adicione um campo de profissão à pessoa;
 
-#for i in range(len(pessoas)):
-#    pessoas[i]['profissao'] = 'Desenvolvedor'
-#    print(pessoas[i])
+for i in range(len(pessoas)):
+    pessoas[i]['profissao'] = 'Desenvolvedor'
+    print(pessoas[i])
 
 ## -> Remova um item do dicionario;
 
-#for i in range(len(pessoas)):
-#    del pessoas[i]['idade']
-#    print(pessoas[i])
+for pessoa in pessoas:
+    del pessoas[i]['idade']
+    print(pessoas[i])
 
 
 # 3- Crie um dicionário utilizando para representar números e seus quadrados de 1 a 5.
